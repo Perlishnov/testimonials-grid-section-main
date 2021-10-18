@@ -40,7 +40,7 @@ p {
   width: max(100%, 70em);
   grid-template: repeat(3, 1fr) / repeat(4, 1fr);
   color: var(--clr-neutral-primary);
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .grid-item {
   padding: 1rem;
