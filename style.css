@@ -85,7 +85,7 @@ p {
 }
 @media screen and (max-width: 414px) {
   .container-grid {
-    grid-template: 1fr / repeat(6, 1fr);
+    grid-template: 1fr / 1fr;
     width: max(90%, 400px);
   }
   .grid-item:nth-child(1) {
@@ -107,5 +107,13 @@ p {
   .grid-item:nth-child(5) {
     grid-column: 1/1;
     grid-row: 5/6;
+  }
+  p {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+  }
+  .UserOccupation
+  {
+    font-size: 1rem;
   }
 }
